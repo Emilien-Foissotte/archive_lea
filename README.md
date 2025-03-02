@@ -1,4 +1,4 @@
-<h1>lea</h1>
+<h1>❄️  Archive of v0.5.0 - lea</h1>
 
 <img src="https://github.com/carbonfact/lea/assets/8095957/df2bcf1e-fcc9-4111-9897-ec29427aeeaa" width="33%" align="right" />
 
@@ -23,6 +23,8 @@
     <img src="https://img.shields.io/github/license/carbonfact/lea" alt="license">
 </a>
 </p>
+
+**⚠️ This repository is a frozen fork of [lea](https://github.com/carbonfact/lea), please refer to original repository for latest updates**
 
 lea is a minimalist alternative to tools like [dbt](https://www.getdbt.com/), [SQLMesh](https://sqlmesh.com/), and [Google's Dataform](https://cloud.google.com/dataform).
 
