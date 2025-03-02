@@ -2271,4 +2271,4 @@ motherduck = ["duckdb"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<4"
-content-hash = "64bf80d23c53dbec3e19b5cf327b041b052638ff0ec808e20ec0705deb920d2c"
+content-hash = "17a64720260036da5c4ddf1590484290c9c754ef3db438399a073a6befd8b27d"
