@@ -1,8 +1,10 @@
 from __future__ import annotations
 
+import importlib.metadata
 import pathlib
 
 import dotenv
+import rich.console
 import typer
 
 import lea
@@ -34,6 +36,14 @@ def validate_views_dir(views_dir: str):
 
 EnvPath = typer.Option(default=None, callback=validate_env_path)
 ViewsDir = typer.Argument(default="views", callback=validate_views_dir)
+
+
+@app.command()
+def version():
+    console = rich.console.Console(force_terminal=True)
+
+    version_string_of_lea = importlib.metadata.version("lea-cli")
+    console.print(f"lea version: {version_string_of_lea}")
 
 
 @app.command()
